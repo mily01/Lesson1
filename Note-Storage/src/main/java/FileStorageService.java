@@ -17,10 +17,14 @@ public class FileStorageService implements StorageService{
         }
         this.fileName = filename;
     }
+    @Override
     public String getName(){
-        return fileName;
+        return this.fileName;
     }
-
+    @Override
+    public Stream<String> getData(){
+        return this.Data;
+    }
     @Override
     public void load_Data() {
         if(errorName) return;
