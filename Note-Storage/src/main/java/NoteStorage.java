@@ -4,6 +4,7 @@
  * Aplicacion para cargar notas de un TXT
  */
 
+
 public class NoteStorage {
     private StorageService storageService;
 
@@ -12,6 +13,6 @@ public class NoteStorage {
     }
 
     public void loadNotes(){
-
+    storageService.load_Data();
     }
 }
