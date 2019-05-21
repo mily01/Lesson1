@@ -1,3 +1,8 @@
+/**
+ * @Author Emily Martinez
+ * @version 1.0
+ * Aplicacion para cargar notas de un TXT
+ */
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
