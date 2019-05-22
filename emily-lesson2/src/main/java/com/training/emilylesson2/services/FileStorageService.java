@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
-@Component
+@Component("FileStorageService")
 public class FileStorageService implements StorageService{
 
     private static final Logger LOG = LoggerFactory.getLogger(FileStorageService.class);
